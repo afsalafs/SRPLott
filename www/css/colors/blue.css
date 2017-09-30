@@ -1,0 +1,202 @@
+/*==============================================
+[Blue color stylesheet blue.css]
+
+Author:	SINDEVO.COM - Smart Internet Development
+Template:	Mobix - Mobile Web APP Template
+================================================*/
+
+/*===============================================*/
+/* MAIN COLOR */
+/*===============================================*/	
+a, blockquote span {
+color: #007aff;
+}
+a.button_full, a.button_small, .call_button a{
+background-color:#007aff; 
+}
+.button {
+border: 1px solid #007aff;
+color: #007aff;
+}
+.button.active {
+background: #007aff;
+}
+#pages_maincontent h3{
+color:#007aff;
+}
+.photo-categories a.active{
+background-color:#007aff;
+}
+.post_date{
+color:#007aff;
+}
+.list-block .swipeout-actions-left a {
+ background-color:#c8c7cc;
+ margin:0;
+}
+
+.contactform input.form_submit, .loginform input.form_submit, .commentform input.form_submit{ 
+background-color:#375a70;
+}
+ul.responsive_table li:first-child{
+background-color:#375a70;
+color:#FFFFFF;
+}
+li.table_row{
+background-color:#e6e6e6;
+}
+/*===============================================*/
+/* HOME BG AND PAGES HEADER BG */
+/*===============================================*/	
+.homepage{
+background:#FFF url(../../images/colors/blue/bg.png) repeat-x;
+
+}
+.navbarpages{
+background:url(../../images/colors/blue/bg.png) repeat-x fixed 0 -10px;
+}
+
+/*===============================================*/
+/* MAIN NAV LINKS */
+/*===============================================*/	
+.main-nav ul li{
+background: #007aff;
+border-bottom:1px #40788e solid;
+}
+.main-nav ul li a
+{
+    color: #FFFFFF;
+}
+/*===============================================*/
+/* POPUPS AND TOOLBAR */
+/*===============================================*/	
+.popup, .page_content_menu
+{
+    background: #FFF;
+}
+.popup-login, .popup-signup, .popup-forgot
+{
+    background-color: #3DADED;
+}
+.toolbar:before {
+background-color: #007aff;
+}
+.messagebar:before
+{
+     background-color:#fff;
+    }
+/*===============================================*/
+/* LEFT AND RIGHT SLIDE PANEL */
+/*===============================================*/	
+.panel
+{
+    background: #0057C8;
+}
+.user-nav ul li, ul.popular_posts li{
+border-bottom:1px #4d8da6 solid;
+}
+/* MENU OPENER ICON */
+ul.toolbar_icons li.menuicon
+{
+    background-color: #015DAA;
+}
+
+/* PANEL CLOSE BUTTON */
+.close_popup_button a{
+background-color:#40788e;
+}
+
+/*-----modified------*/
+h2.page_title,.page_title_photos h2{
+color:#007aff;
+}
+
+.list-block .swipeout-actions-right .bg-lightblue{background-color:#007aff}
+.list-block .swipeout-actions-right .bg-orange{background-color:#FF7D00}
+.list-block .swipeout-actions-right .bg-pink{background-color:#7A7774}
+.badge{background-color:#5ac8fa;}
+.TicketSelectionPopup,
+.VKB
+{
+    background: rgba(0, 0,0, 0);
+    overflow:hidden;
+    width:100%;
+}
+
+.TicketSelectionPopup .content-block-inner
+{
+     padding-top:2px ;
+     padding-bottom:2px;         
+    }
+    
+.VKB input[type="number"],
+.TicketSelectionPopup input[type="number"]
+{
+    height:28px;
+    padding:0;
+    font-weight:bold;
+    font-size:24px;
+    }
+    .TicketSelectionPopup .button_small,.TicketSelectionPopup .button 
+    {
+        height:30px;
+        line-height:28px;
+        }
+        .swiper-slide span {
+ 
+  display:block;
+  padding:0 5px;
+  margin:0 15px;
+}
+.swiper-button-prev
+{left:-2px;
+    }
+    .swiper-button-next{right:-2px;}
+    .swiper-wrapper{height:28px;}
+   .TicketSelectionPopup #TktGroup .button
+    {
+        border:none;
+        border-left-style:solid;
+        border-left-width:1px;
+        display:block;
+        height:60px;
+        padding-top:30px;
+        text-overflow:none;
+        }
+.TicketSelectionPopup #TktGroup .button:first-child
+{
+    border-left:none;
+        
+    }
+   .TicketSelectionPopup #TktGroup
+    {
+        margin-left:-15px;
+        margin-right:-15px;
+        }
+        .card-header h2{color:#007aff;}
+       .list-block .swipeout-actions-right a {background: #ff3b30;}
+ 
+
+.buttons-row .button
+{border-radius: 5px;
+ border-width:1px;margin:2px;
+ font-size:24px;
+    }
+.buttons-row .button:last-child {
+    border-radius: 5px;
+}
+  .buttons-row .button:first-child {
+    border-radius: 5px;
+}
+.button-raised {
+    box-shadow: 0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.24);
+}
+.list-block .item-after
+{
+    color:#000;
+}
+
+.list-block  .item-title
+{
+    color:#000;
+}

@@ -1,0 +1,55 @@
+
+<div class="pages">
+  <div data-page="DashBoard" class="page no-toolbar no-navbar">
+    <div class="page-content">
+    
+      <div class="page_content_menu">
+       <nav class="main-nav">
+        <ul>
+          <li><a href="index.html" data-context='{"dashboard":true}' ><img src="images/icons/white/home.png" alt="" title="" /><span>Home</span></a></li>
+          <li><a href="ticketsale.html"><img src="images/icons/white/form.png" alt="" title="" /><span>Ticket Sale</span></a></li>
+          <li><a href="dailysale.html"><img src="images/icons/white/briefcase.png" alt="" title="" /><span>Daily Sales</span></a></li>
+          <li><a href="result.html"><img src="images/icons/white/tables.png" alt="" title="" /><span>View Results</span></a></li>
+          <li><a href="TodaysWinner.html"><img src="images/icons/white/blog.png" alt="" title="" /><span>Todays Winner</span></a></li>
+          <li><a href="SalesCommision.html"><img src="images/icons/white/docs.png" alt="" title="" /><span>Sales Comm</span></a></li>
+          <li><a href="PrizeCommision.html"><img src="images/icons/white/docs.png" alt="" title="" /><span>Prize Comm</span></a></li>
+          <li><a href="underProcess.html"><img src="images/icons/white/user.png" alt="" title="" /><span>My Account</span></a></li>
+          {{#if isAdmin}}
+          <li><a href="resultEntry.html"><img src="images/icons/white/tables.png" alt="" title="" /><span>Publish Results</span></a></li>
+          <li><a href="underProcess.html"><img src="images/icons/white/user.png" alt="" title="" /><span>Agents</span></a></li>
+          <li><a href="underProcess.html"><img src="images/icons/white/settings.png" alt="" title="" /><span>Settings</span></a></li>
+          <li><a href="incomeSummary.html"><img src="images/icons/white/linkedin.png" alt="" title="" /><span>Income Summary</span></a></li>
+          {{/if}}
+          <li><a href="agentPayment.html"><img src="images/icons/white/pinterest.png" alt="" title="" /><span>Agent Payment</span></a></li>
+        </ul>
+      </nav>  
+       {{#if isAdmin}}
+        <div class="content-block accordion-list custom-accordion">
+  <div class="accordion-item">
+    <div class="accordion-item-toggle">
+      <i class="icon icon-plus">+</i>
+      <i class="icon icon-minus">-</i>
+      <span>Reports</span>
+    </div>
+    <div class="accordion-item-content">
+        <nav class="main-nav">
+        <ul>
+          <li><a href="underProcess.html"><img src="images/icons/white/docs.png" alt="" title="" /><span>Agents DailyWise Sale</span></a></li>
+          <li><a href="underProcess.html"><img src="images/icons/white/docs.png" alt="" title="" /><span>Agents Consolidated Sales</span></a></li>
+          <li><a href="underProcess.html"><img src="images/icons/white/docs.png" alt="" title="" /><span>Result Based Report</span></a></li>
+          <li><a href="underProcess.html"><img src="images/icons/white/docs.png" alt="" title="" /><span>Agents Detailed Sales</span></a></li>
+          <li><a href="underProcess.html"><img src="images/icons/white/docs.png" alt="" title="" /><span>Agent Commissions</span></a></li>
+          <li><a href="underProcess.html"><img src="images/icons/white/docs.png" alt="" title="" /><span>Daily Consolidated Sales</span></a></li>
+          <li><a href="underProcess.html"><img src="images/icons/white/docs.png" alt="" title="" /><span>Sales/Income Summary</span></a></li>
+        </ul>
+      </nav>  
+    </div>
+  </div>
+</div>  
+       {{/if}}
+      <div class="close_popup_button"><a href="#" class="backbutton"><img src="images/icons/white/menu_close.png" alt="" title="" /></a></div>
+     </div> 
+      
+    </div>
+  </div>
+</div>

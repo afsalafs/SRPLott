@@ -1,0 +1,41 @@
+  <div class="pages">
+  <div data-page="resultEntry" class="page no-toolbar no-navbar">
+    <div class="page-content">
+     <div class="navbarpages">
+       <div class="nav_left_logo"><a href="index.html"><img src="images/logo.png" alt="" title="" /></a></div>
+       <div class="nav_right_button"><a href="menu.html"><img src="images/icons/white/menu.png" alt="" title="" /></a></div>
+     </div>
+     <div id="pages_maincontent" style="overflow:hidden;padding-bottom:88px;">
+    <div class="page_title_photos">
+                <h2 >Publish Results</h2> 
+               <div class="gallery_switch"> 
+             <a href="#" class="switcher" onclick="resultentry.addResults()"><i class="icon f7-icons color-custom size-29">add_round</i></a>       
+             <a href="#" class="switcher" onclick="resultentry.PostResults()"><i class="icon f7-icons color-custom size-29">check_round</i></a>
+             <a href="#" class="switcher" onclick="resultentry.DeleteResults()"><i class="icon f7-icons color-custom size-29">delete_round</i></a>
+                         <div class="switcher row">
+      <div class="col-auto">
+       <input  type="text" style="border:none;" readonly id="calendar-TktResultEntry" placeholder="Date">
+      </div>
+    </div>
+
+              </div>
+              
+            </div>            
+              	<!-- Search bar -->
+					<form class="searchbar">
+						<div class="searchbar-input">
+							<input type="search" placeholder="Search">
+							<a href="#" class="searchbar-clear"></a>
+						</div>
+						<a href="#" class="searchbar-cancel" >Cancel</a>
+					</form>
+             <div class="page-content">     
+                        <div id="tktresultEntry-list" class="list-block virtual-list accordion-list">                      
+        </div>
+    </div>
+
+    </div>
+
+
+  </div>
+</div>
